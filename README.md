@@ -28,4 +28,4 @@ DB_FILE = {'MODEL':'model_list_20200204.csv',
            'DRUG':''}
 ```
 
-$ python useCCLE.py
+type $python useCCLE.py to generate the following files in a tidy format ready for analysis
