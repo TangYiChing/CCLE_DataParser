@@ -27,3 +27,5 @@ DB_FILE = {'MODEL':'model_list_20200204.csv',
            'CELL': 'sample_info.csv',
            'DRUG':''}
 ```
+
+$ python useCCLE.py
