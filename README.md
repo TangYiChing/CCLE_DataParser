@@ -11,3 +11,17 @@ Data parser for CCLE
      * compound: , source link:
      * drug sensitivity: CCLE_NP24.2009_Drug_data_2015.02.24.csv, source link:
      * model list: https://cellmodelpassports.sanger.ac.uk/downloads
+
+# How to use it?
+
+Download files listed above and put it in a folder (e.g., /data/DR/db/CCLE/):
+
+DB_PATH = '/data/DR/db/CCLE/'
+DB_FILE = {'MODEL':'model_list_20200204.csv',
+           'EXP_tpm':'CCLE_expression.csv', # log2(TPM+1)
+           'EXP_rpkm': 'CCLE_expression_log2RPKM.csv', # log2(RPKM+1)
+           'CNV':'CCLE_gene_cn.csv',
+           'MUT':'CCLE_mutations.csv',
+           'RESP':'CCLE_NP24.2009_Drug_data_2015.02.24.csv',
+           'CELL': 'sample_info.csv',
+           'DRUG':''}
