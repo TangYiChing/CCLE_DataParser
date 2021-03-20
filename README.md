@@ -16,6 +16,7 @@ Data parser for CCLE
 
 Download files listed above and put it in a folder (e.g., /data/DR/db/CCLE/):
 
+```{python}
 DB_PATH = '/data/DR/db/CCLE/'
 DB_FILE = {'MODEL':'model_list_20200204.csv',
            'EXP_tpm':'CCLE_expression.csv', # log2(TPM+1)
@@ -25,3 +26,4 @@ DB_FILE = {'MODEL':'model_list_20200204.csv',
            'RESP':'CCLE_NP24.2009_Drug_data_2015.02.24.csv',
            'CELL': 'sample_info.csv',
            'DRUG':''}
+```
