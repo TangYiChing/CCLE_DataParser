@@ -29,3 +29,10 @@ DB_FILE = {'MODEL':'model_list_20200204.csv',
 ```
 
 type $python useCCLE.py to generate the following files in a tidy format ready for analysis
+
+```{python}
+gene expression: cell line by gene matrix
+somatic mutation: cell line by gene matrix
+copy number variation: cell line by gene matrix
+drug sensitivity: compound by cell line matrix
+```
